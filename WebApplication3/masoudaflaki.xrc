@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resource xmlns="http://www.wxwidgets.org/wxxrc" version="2.5.3.0">
+	<object class="wxFrame" name="masoudaflaki">
+		<title>Frame</title>
+		<size>786,450</size>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL1">
+			<pos>328,152</pos>
+		</object>
+		<object class="wxButton" name="ID_BUTTON2">
+			<label>Label</label>
+			<pos>8,264</pos>
+			<size>219,48</size>
+		</object>
+		<object class="wxButton" name="ID_BUTTON1">
+			<label>Label</label>
+			<pos>8,216</pos>
+			<size>216,40</size>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX1">
+			<label>Label</label>
+			<pos>248,240</pos>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX2">
+			<label>Label</label>
+			<pos>248,216</pos>
+			<size>50,23</size>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX3">
+			<label>Label</label>
+			<pos>248,264</pos>
+			<size>50,24</size>
+		</object>
+		<object class="wxCheckBox" name="ID_CHECKBOX4">
+			<label>Label</label>
+			<pos>248,288</pos>
+			<size>50,32</size>
+		</object>
+		<object class="wxBitmapComboBox" name="ID_BITMAPCOMBOBOX1">
+			<mImageList>&lt;none&gt;</mImageList>
+			<mItems>
+				<item>BitmapComboBox1</item>
+				<item>&lt;none&gt;</item>
+			</mItems>
+			<mItemsText>
+				<item2>BitmapComboBox1</item2>
+				<item2>&lt;none&gt;</item2>
+			</mItemsText>
+			<pos>16,80</pos>
+			<size>80,24</size>
+		</object>
+		<object class="wxBitmapComboBox" name="ID_BITMAPCOMBOBOX2">
+			<mImageList>&lt;none&gt;</mImageList>
+			<mItems>
+				<item>BitmapComboBox2</item>
+				<item>&lt;none&gt;</item>
+			</mItems>
+			<mItemsText>
+				<item2>BitmapComboBox2</item2>
+				<item2>&lt;none&gt;</item2>
+			</mItemsText>
+			<pos>16,104</pos>
+			<size>80,24</size>
+		</object>
+		<object class="wxBitmapButton" name="ID_BITMAPBUTTON1">
+			<pos>184,320</pos>
+			<size>80,128</size>
+		</object>
+		<object class="wxCheckListBox" name="ID_CHECKLISTBOX1">
+			<pos>16,136</pos>
+			<size>104,55</size>
+		</object>
+		<object class="wxContextHelpButton" name="ID_CONTEXTHELPBUTTON1">
+			<pos>752,0</pos>
+		</object>
+		<object class="wxDataViewCtrl" name="ID_DATAVIEWCTRL1">
+			<pos>8,8</pos>
+			<size>112,64</size>
+		</object>
+		<object class="wxDataViewListCtrl" name="ID_DATAVIEWLISTCTRL1">
+			<pos>128,0</pos>
+			<size>100,96</size>
+		</object>
+		<object class="wxDataViewTreeCtrl" name="ID_DATAVIEWTREECTRL1">
+			<pos>128,104</pos>
+		</object>
+		<object class="wxEditableListBox" name="ID_EDITABLELISTBOX1">
+			<pos>752,24</pos>
+		</object>
+		<object class="wxGauge" name="ID_GAUGE1">
+			<pos>464,24</pos>
+			<size>104,104</size>
+		</object>
+		<object class="wxHyperlinkCtrl" name="ID_HYPERLINKCTRL1">
+			<label>http://www.codeblocks.org</label>
+			<pos>632,432</pos>
+		</object>
+		<object class="wxListbook" name="ID_LISTBOOK1">
+			<pos>616,0</pos>
+			<size>80,0</size>
+			<object class="listbookpage">
+				<object class="wxPanel" name="ID_PANEL1">
+					<pos>56,22</pos>
+					<size>56,48</size>
+				</object>
+			</object>
+		</object>
+		<object class="wxListBox" name="ID_LISTBOX1">
+			<default>-1</default>
+			<pos>248,96</pos>
+			<size>136,88</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL2">
+			<pos>328,272</pos>
+			<size>192,168</size>
+			<object class="wxToggleButton" name="ID_TOGGLEBUTTON4">
+				<label>Label</label>
+				<pos>8,8</pos>
+				<size>88,144</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON9">
+				<label>Label</label>
+				<pos>104,16</pos>
+				<size>96,15</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON10">
+				<label>Label</label>
+				<pos>104,56</pos>
+				<size>96,15</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON11">
+				<label>Label</label>
+				<pos>104,88</pos>
+				<size>96,15</size>
+			</object>
+			<object class="wxRadioButton" name="ID_RADIOBUTTON12">
+				<label>Label</label>
+				<pos>104,128</pos>
+				<size>96,15</size>
+			</object>
+		</object>
+		<object class="wxPanel" name="ID_PANEL3">
+			<pos>312,48</pos>
+			<size>40,52</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON1">
+			<label>Label</label>
+			<pos>472,88</pos>
+			<size>80,15</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON2">
+			<label>Label</label>
+			<pos>472,64</pos>
+			<size>80,15</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON3">
+			<label>Label</label>
+			<pos>272,408</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON4">
+			<label>Label</label>
+			<pos>272,376</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON5">
+			<label>Label</label>
+			<pos>272,344</pos>
+		</object>
+		<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL1">
+			<value>Text</value>
+			<pos>72,144</pos>
+			<size>42,18</size>
+		</object>
+		<object class="wxRichTextStyleComboCtrl" name="ID_RICHTEXTSTYLECOMBOCTRL1">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>192,16</pos>
+			<size>32,56</size>
+		</object>
+		<object class="wxRichTextStyleComboCtrl" name="ID_RICHTEXTSTYLECOMBOCTRL2">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>144,16</pos>
+			<size>40,55</size>
+		</object>
+		<object class="wxRichTextStyleComboCtrl" name="ID_RICHTEXTSTYLECOMBOCTRL3">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>192,112</pos>
+			<size>24,23</size>
+		</object>
+		<object class="wxRichTextStyleComboCtrl" name="ID_RICHTEXTSTYLECOMBOCTRL4">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>280,112</pos>
+			<size>80,31</size>
+		</object>
+		<object class="wxRichTextStyleComboCtrl" name="ID_RICHTEXTSTYLECOMBOCTRL5">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>24,16</pos>
+			<size>32,48</size>
+		</object>
+		<object class="wxRichTextStyleListBox" name="ID_RICHTEXTSTYLELISTBOX1">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>240,16</pos>
+			<size>360,184</size>
+		</object>
+		<object class="wxRichTextStyleListBox" name="ID_RICHTEXTSTYLELISTBOX2">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>24,144</pos>
+			<size>40,20</size>
+		</object>
+		<object class="wxScrollBar" name="ID_SCROLLBAR1">
+			<thumbsize>1</thumbsize>
+			<range>10</range>
+			<pagesize>1</pagesize>
+			<pos>160,112</pos>
+			<size>24,17</size>
+		</object>
+		<object class="wxScrollBar" name="ID_SCROLLBAR2">
+			<thumbsize>1</thumbsize>
+			<range>10</range>
+			<pagesize>1</pagesize>
+			<pos>424,136</pos>
+			<size>56,40</size>
+		</object>
+		<object class="wxScrolledWindow" name="ID_SCROLLEDWINDOW1">
+			<pos>352,168</pos>
+		</object>
+		<object class="wxScrolledWindow" name="ID_SCROLLEDWINDOW2">
+			<pos>368,56</pos>
+		</object>
+		<object class="wxSearchCtrl" name="ID_SEARCHCTRL1">
+			<pos>240,0</pos>
+			<size>512,23</size>
+		</object>
+		<object class="wxSlider" name="ID_SLIDER1">
+			<pos>136,144</pos>
+			<size>88,24</size>
+		</object>
+		<object class="wxSpinButton" name="ID_SPINBUTTON1">
+			<max>100</max>
+			<pos>248,128</pos>
+			<size>56,34</size>
+		</object>
+		<object class="wxSpinCtrl" name="ID_SPINCTRL1">
+			<value>0</value>
+			<pos>136,112</pos>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1">
+			<label>Label</label>
+			<pos>424,32</pos>
+			<size>38,88</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1">
+			<label>Label</label>
+			<pos>24,168</pos>
+			<size>80,16</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2">
+			<label>Label</label>
+			<pos>472,24</pos>
+			<size>88,32</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON1">
+			<label>Label</label>
+			<pos>192,72</pos>
+			<size>32,23</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON2">
+			<label>Label</label>
+			<pos>272,168</pos>
+			<size>104,23</size>
+		</object>
+		<object class="wxTreeCtrl" name="ID_TREECTRL1">
+			<image_list>&lt;none&gt;</image_list>
+			<tree_items>
+				<item>TreeCtrl1</item>
+				<item>&lt;none&gt;</item>
+			</tree_items>
+			<items_text>
+				<item2>TreeCtrl1</item2>
+				<item2>&lt;none&gt;</item2>
+			</items_text>
+			<pos>408,72</pos>
+			<size>184,80</size>
+		</object>
+		<object class="wxToggleButton" name="ID_TOGGLEBUTTON3">
+			<label>Label</label>
+			<pos>136,72</pos>
+			<size>32,23</size>
+		</object>
+		<object class="wxSlider" name="ID_SLIDER2">
+			<pos>328,40</pos>
+			<size>52,26</size>
+		</object>
+		<object class="wxSpinButton" name="ID_SPINBUTTON2">
+			<max>100</max>
+			<pos>320,128</pos>
+		</object>
+		<object class="wxSpinCtrlDouble" name="ID_SPINCTRLDOUBLE1">
+			<value>0</value>
+			<pos>528,176</pos>
+			<size>56,23</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP2">
+			<pos>496,232</pos>
+			<size>88,80</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON6">
+			<label>Label</label>
+			<pos>272,320</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON7">
+			<label>Label</label>
+			<pos>64,48</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON8">
+			<label>Label</label>
+			<pos>64,24</pos>
+		</object>
+		<object class="wxRichTextStyleListCtrl" name="ID_RICHTEXTSTYLELISTCTRL1">
+			<control></control>
+			<style_sheet></style_sheet>
+			<pos>16,336</pos>
+			<size>136,96</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL4">
+			<pos>624,48</pos>
+			<size>152,392</size>
+			<object class="wxSimpleHtmlListBox" name="ID_SIMPLEHTMLLISTBOX1">
+				<default>-1</default>
+				<pos>104,152</pos>
+			</object>
+			<object class="wxRichTextCtrl" name="ID_RICHTEXTCTRL2">
+				<value>Text</value>
+				<pos>24,48</pos>
+				<size>112,96</size>
+			</object>
+			<object class="wxTreebook" name="ID_TREEBOOK1">
+				<pos>8,184</pos>
+				<size>136,184</size>
+			</object>
+			<object class="wxSearchCtrl" name="ID_SEARCHCTRL2">
+				<pos>8,8</pos>
+				<size>128,23</size>
+			</object>
+		</object>
+	</object>
+</resource>

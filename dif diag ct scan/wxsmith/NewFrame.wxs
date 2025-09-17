@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="NewFrame">
+		<handler function="OnClose" entry="EVT_CLOSE" />
+		<object class="wxChoicebook" name="ID_CHOICEBOOK1" variable="Choicebook1" member="yes">
+			<style>wxBORDER_DOUBLE|wxBORDER_SUNKEN|wxBORDER_NONE|wxTRANSPARENT_WINDOW|wxTAB_TRAVERSAL|wxVSCROLL|wxHSCROLL|wxALWAYS_SHOW_SB|wxCLIP_CHILDREN|wxFULL_REPAINT_ON_RESIZE</style>
+			<object class="choicebookpage">
+				<object class="wxListView" name="ID_LISTVIEW1" variable="ListView1" member="yes">
+					<pos>154,183</pos>
+				</object>
+				<label>Page name</label>
+			</object>
+			<object class="choicebookpage">
+				<object class="wxRadioBox" name="ID_RADIOBOX1" variable="RadioBox1" member="yes">
+					<label>Label</label>
+					<default>-1</default>
+					<pos>19,84</pos>
+				</object>
+				<label>Page name</label>
+			</object>
+			<object class="choicebookpage">
+				<object class="wxGauge" name="ID_GAUGE1" variable="Gauge1" member="yes">
+					<pos>283,152</pos>
+				</object>
+				<label>Page name</label>
+			</object>
+			<object class="choicebookpage">
+				<object class="wxScrolledWindow" name="ID_SCROLLEDWINDOW1" variable="ScrolledWindow1" member="yes">
+					<pos>15,128</pos>
+					<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="StaticBitmap1" member="yes">
+						<pos>242,3</pos>
+						<size>128,96</size>
+					</object>
+				</object>
+				<label>Page name</label>
+			</object>
+		</object>
+		<object class="wxNotebook" name="ID_NOTEBOOK1" variable="Notebook1" member="yes">
+			<pos>0,64</pos>
+		</object>
+		<object class="wxListCtrl" name="ID_LISTCTRL1" variable="ListCtrl1" member="yes">
+			<pos>0,80</pos>
+			<size>136,328</size>
+		</object>
+		<object class="wxEditableListBox" name="ID_EDITABLELISTBOX1" variable="EditableListBox1" member="yes">
+			<pos>344,360</pos>
+		</object>
+		<object class="wxDataViewTreeCtrl" name="ID_DATAVIEWTREECTRL1" variable="DataViewTreeCtrl1" member="yes">
+			<pos>152,80</pos>
+			<size>100,336</size>
+		</object>
+		<object class="wxContextHelpButton" name="ID_CONTEXTHELPBUTTON1" variable="ContextHelpButton1" member="yes">
+			<pos>344,328</pos>
+		</object>
+		<object class="wxChoice" name="ID_CHOICE1" variable="Choice1" member="yes">
+			<pos>32,40</pos>
+			<size>212,40</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON1" variable="RadioButton1" member="yes">
+			<label>Label</label>
+			<pos>72,344</pos>
+			<size>50,16</size>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON2" variable="RadioButton2" member="yes">
+			<label>Label</label>
+			<pos>72,328</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON3" variable="RadioButton3" member="yes">
+			<label>Label</label>
+			<pos>72,296</pos>
+		</object>
+		<object class="wxRadioButton" name="ID_RADIOBUTTON4" variable="RadioButton4" member="yes">
+			<label>Label</label>
+			<pos>72,312</pos>
+		</object>
+		<object class="wxScrolledWindow" name="ID_SCROLLEDWINDOW2" variable="ScrolledWindow2" member="yes">
+			<pos>168,272</pos>
+		</object>
+		<object class="wxSearchCtrl" name="ID_SEARCHCTRL1" variable="SearchCtrl1" member="yes">
+			<pos>24,8</pos>
+			<size>366,23</size>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+			<value>Text</value>
+			<pos>8,120</pos>
+		</object>
+		<object class="wxStaticBox" name="ID_STATICBOX1" variable="StaticBox1" member="yes">
+			<label>Label</label>
+			<pos>264,208</pos>
+			<size>104,216</size>
+		</object>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>16,320</pos>
+		</object>
+		<object class="wxRadioBox" name="ID_RADIOBOX2" variable="RadioBox2" member="yes">
+			<label>Label</label>
+			<default>-1</default>
+			<pos>8,152</pos>
+			<size>120,128</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL1" variable="AnimationCtrl1" member="yes">
+			<pos>16,288</pos>
+		</object>
+		<object class="wxTreebook" name="ID_TREEBOOK1" variable="Treebook1" member="yes">
+			<pos>344,384</pos>
+		</object>
+		<object class="wxTreeCtrl" name="ID_TREECTRL1" variable="TreeCtrl1" member="yes">
+			<image_list>&lt;none&gt;</image_list>
+			<tree_items>
+				<item>TreeCtrl1</item>
+				<item>&lt;none&gt;</item>
+			</tree_items>
+			<items_text>
+				<item2>TreeCtrl1</item2>
+				<item2>&lt;none&gt;</item2>
+			</items_text>
+			<pos>264,32</pos>
+			<size>112,152</size>
+		</object>
+		<object class="wxMenuBar" variable="MenuBar1" member="yes" />
+		<object class="wxStatusBar" name="ID_STATUSBAR1" variable="StatusBar1" member="yes">
+			<fields>1</fields>
+			<widths>-10</widths>
+			<styles>wxSB_NORMAL</styles>
+		</object>
+		<object class="wxImage" variable="Image1" member="yes" />
+		<object class="wxDialUpManager" name="ID_DIALUPMANAGER1" variable="DialUpManager1" member="yes" />
+		<object class="wxHtmlEasyPrinting" variable="HtmlEasyPrinting1" member="yes" />
+		<object class="wxToolBar" name="ID_TOOLBAR1" variable="ToolBar1" member="yes" />
+		<object class="wxTimer" name="ID_TIMER1" variable="Timer1" member="yes">
+			<handler function="OnTimer1Trigger" entry="EVT_TIMER" />
+		</object>
+	</object>
+</wxsmith>

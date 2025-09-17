@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<resource_extra>
+		<object root="1" />
+		<object name="ID_ANIMATIONCTRL1" class="wxAnimationCtrl" variable="AnimationCtrl1" member="yes" />
+		<object name="ID_BUTTON2" class="wxButton" variable="Button2" member="yes" />
+		<object name="ID_BUTTON1" class="wxButton" variable="Button1" member="yes">
+			<handler function="OnButton1Click" entry="EVT_BUTTON" />
+		</object>
+		<object name="ID_CHECKBOX1" class="wxCheckBox" variable="CheckBox1" member="yes">
+			<handler function="OnCheckBox1Click" entry="EVT_CHECKBOX" />
+		</object>
+		<object name="ID_CHECKBOX2" class="wxCheckBox" variable="CheckBox2" member="yes">
+			<handler function="OnCheckBox2Click" entry="EVT_CHECKBOX" />
+		</object>
+		<object name="ID_CHECKBOX3" class="wxCheckBox" variable="CheckBox3" member="yes">
+			<handler function="OnCheckBox3Click" entry="EVT_CHECKBOX" />
+		</object>
+		<object name="ID_CHECKBOX4" class="wxCheckBox" variable="CheckBox4" member="yes" />
+		<object name="ID_BITMAPCOMBOBOX1" class="wxBitmapComboBox" variable="BitmapComboBox1" member="yes" />
+		<object name="ID_BITMAPCOMBOBOX2" class="wxBitmapComboBox" variable="BitmapComboBox2" member="yes" />
+		<object name="ID_BITMAPBUTTON1" class="wxBitmapButton" variable="BitmapButton1" member="yes" />
+		<object name="ID_CHECKLISTBOX1" class="wxCheckListBox" variable="CheckListBox1" member="yes" />
+		<object name="ID_CONTEXTHELPBUTTON1" class="wxContextHelpButton" variable="ContextHelpButton1" member="yes" />
+		<object name="ID_DATAVIEWCTRL1" class="wxDataViewCtrl" variable="DataViewCtrl1" member="yes" />
+		<object name="ID_DATAVIEWLISTCTRL1" class="wxDataViewListCtrl" variable="DataViewListCtrl1" member="yes" />
+		<object name="ID_DATAVIEWTREECTRL1" class="wxDataViewTreeCtrl" variable="DataViewTreeCtrl1" member="yes" />
+		<object name="ID_EDITABLELISTBOX1" class="wxEditableListBox" variable="EditableListBox1" member="yes" />
+		<object name="ID_GAUGE1" class="wxGauge" variable="Gauge1" member="yes" />
+		<object name="ID_HYPERLINKCTRL1" class="wxHyperlinkCtrl" variable="HyperlinkCtrl1" member="yes" />
+		<object name="ID_LISTBOOK1" class="wxListbook" variable="Listbook1" member="yes" />
+		<object name="ID_LISTBOX1" class="wxListBox" variable="ListBox1" member="yes">
+			<handler function="OnListBox1Select" entry="EVT_LISTBOX" />
+		</object>
+		<object name="ID_PANEL1" class="wxPanel" variable="Panel1" member="yes" />
+		<object name="ID_PANEL2" class="wxPanel" variable="Panel2" member="yes" />
+		<object name="ID_PANEL3" class="wxPanel" variable="Panel3" member="yes" />
+		<object name="ID_PANEL4" class="wxPanel" variable="Panel4" member="yes" />
+		<object name="ID_RADIOBUTTON1" class="wxRadioButton" variable="RadioButton1" member="yes" />
+		<object name="ID_RADIOBUTTON2" class="wxRadioButton" variable="RadioButton2" member="yes" />
+		<object name="ID_RADIOBUTTON3" class="wxRadioButton" variable="RadioButton3" member="yes" />
+		<object name="ID_RADIOBUTTON4" class="wxRadioButton" variable="RadioButton4" member="yes" />
+		<object name="ID_RADIOBUTTON5" class="wxRadioButton" variable="RadioButton5" member="yes" />
+		<object name="ID_RICHTEXTCTRL1" class="wxRichTextCtrl" variable="RichTextCtrl1" member="yes">
+			<handler function="OnRichTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object name="ID_RICHTEXTCTRL2" class="wxRichTextCtrl" variable="RichTextCtrl2" member="yes" />
+		<object name="ID_RICHTEXTSTYLECOMBOCTRL1" class="wxRichTextStyleComboCtrl" variable="RichTextStyleComboCtrl1" member="yes" />
+		<object name="ID_RICHTEXTSTYLECOMBOCTRL2" class="wxRichTextStyleComboCtrl" variable="RichTextStyleComboCtrl2" member="yes" />
+		<object name="ID_RICHTEXTSTYLECOMBOCTRL3" class="wxRichTextStyleComboCtrl" variable="RichTextStyleComboCtrl3" member="yes" />
+		<object name="ID_RICHTEXTSTYLECOMBOCTRL4" class="wxRichTextStyleComboCtrl" variable="RichTextStyleComboCtrl4" member="yes" />
+		<object name="ID_RICHTEXTSTYLECOMBOCTRL5" class="wxRichTextStyleComboCtrl" variable="RichTextStyleComboCtrl5" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTBOX1" class="wxRichTextStyleListBox" variable="RichTextStyleListBox1" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTBOX2" class="wxRichTextStyleListBox" variable="RichTextStyleListBox2" member="yes" />
+		<object name="ID_RICHTEXTSTYLELISTCTRL1" class="wxRichTextStyleListCtrl" variable="RichTextStyleListCtrl1" member="yes" />
+		<object name="ID_SCROLLBAR1" class="wxScrollBar" variable="ScrollBar1" member="yes">
+			<handler function="OnScrollBar1Scroll" entry="EVT_COMMAND_SCROLL" />
+		</object>
+		<object name="ID_SCROLLBAR2" class="wxScrollBar" variable="ScrollBar2" member="yes" />
+		<object name="ID_SCROLLEDWINDOW1" class="wxScrolledWindow" variable="ScrolledWindow1" member="yes" />
+		<object name="ID_SCROLLEDWINDOW2" class="wxScrolledWindow" variable="ScrolledWindow2" member="yes" />
+		<object name="ID_SEARCHCTRL1" class="wxSearchCtrl" variable="SearchCtrl1" member="yes" />
+		<object name="ID_SIMPLEHTMLLISTBOX1" class="wxSimpleHtmlListBox" variable="SimpleHtmlListBox1" member="yes" />
+		<object name="ID_SLIDER1" class="wxSlider" variable="Slider1" member="yes" />
+		<object name="ID_SPINBUTTON1" class="wxSpinButton" variable="SpinButton1" member="yes" />
+		<object name="ID_SPINCTRL1" class="wxSpinCtrl" variable="SpinCtrl1" member="yes" />
+		<object name="ID_STATICBITMAP1" class="wxStaticBitmap" variable="StaticBitmap1" member="yes" />
+		<object name="ID_STATICBOX1" class="wxStaticBox" variable="StaticBox1" member="yes" />
+		<object name="ID_STATICTEXT1" class="wxStaticText" variable="StaticText1" member="yes" />
+		<object name="ID_STATICTEXT2" class="wxStaticText" variable="StaticText2" member="yes" />
+		<object name="ID_TOGGLEBUTTON1" class="wxToggleButton" variable="ToggleButton1" member="yes" />
+		<object name="ID_TOGGLEBUTTON2" class="wxToggleButton" variable="ToggleButton2" member="yes" />
+		<object name="ID_TREEBOOK1" class="wxTreebook" variable="Treebook1" member="yes" />
+		<object name="ID_TREECTRL1" class="wxTreeCtrl" variable="TreeCtrl1" member="yes" />
+		<object name="ID_TOGGLEBUTTON3" class="wxToggleButton" variable="ToggleButton3" member="yes" />
+		<object name="ID_TOGGLEBUTTON4" class="wxToggleButton" variable="ToggleButton4" member="yes" />
+		<object name="ID_CUSTOM1" class="Custom" variable="Custom1" member="yes" />
+	</resource_extra>
+</wxsmith>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxPanel" name="NewPanel">
+		<id_arg>0</id_arg>
+		<object class="wxCalendarCtrl" name="ID_CALENDARCTRL1" variable="CalendarCtrl1" member="yes">
+			<pos>0,32</pos>
+			<size>362,171</size>
+		</object>
+		<object class="wxColourPickerCtrl" name="ID_COLOURPICKERCTRL1" variable="ColourPickerCtrl1" member="yes">
+			<colour>#000000</colour>
+			<pos>0,0</pos>
+		</object>
+		<object class="wxDatePickerCtrl" name="ID_DATEPICKERCTRL1" variable="DatePickerCtrl1" member="yes">
+			<pos>104,0</pos>
+		</object>
+		<object class="wxFilePickerCtrl" name="ID_FILEPICKERCTRL1" variable="FilePickerCtrl1" member="yes">
+			<message></message>
+			<wildcard></wildcard>
+			<pos>208,8</pos>
+		</object>
+		<object class="wxFontPickerCtrl" name="ID_FONTPICKERCTRL1" variable="FontPickerCtrl1" member="yes">
+			<pos>360,56</pos>
+		</object>
+		<object class="wxGenericDirCtrl" name="ID_GENERICDIRCTRL1" variable="GenericDirCtrl1" member="yes">
+			<defaultfolder></defaultfolder>
+			<filter></filter>
+			<pos>368,112</pos>
+		</object>
+		<object class="wxGLCanvas" name="ID_GLCANVAS1" variable="GLCanvas1" member="yes">
+			<mSampleBuffers>0</mSampleBuffers>
+			<mSamples>0</mSamples>
+			<pos>424,32</pos>
+		</object>
+		<object class="wxGrid" name="ID_GRID1" variable="Grid1" member="yes">
+			<pos>416,8</pos>
+		</object>
+		<object class="wxHtmlWindow" name="ID_HTMLWINDOW1" variable="HtmlWindow1" member="yes">
+			<pos>440,64</pos>
+		</object>
+		<object class="wxTimePickerCtrl" name="ID_TIMEPICKERCTRL1" variable="TimePickerCtrl1" member="yes">
+			<pos>368,88</pos>
+		</object>
+		<object class="wxHtmlWindow" name="ID_HTMLWINDOW2" variable="HtmlWindow2" member="yes">
+			<pos>456,64</pos>
+		</object>
+	</object>
+</wxsmith>

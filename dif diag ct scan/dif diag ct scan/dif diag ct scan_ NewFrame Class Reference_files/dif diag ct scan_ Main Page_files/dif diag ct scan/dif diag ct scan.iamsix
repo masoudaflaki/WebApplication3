@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<IaMsxixTool Version="1.0.0.2703" Schema="5">
+	<Project Name="dif diag ct scan" Type="1" ProcessorArchitecture="1">
+		<Package>
+			<Identity Name="" Publisher="" Version="1.0.0.0" />
+			<Properties>
+				<DisplayName></DisplayName>
+				<PublisherDisplayName></PublisherDisplayName>
+				<Logo></Logo>
+			</Properties>
+			<Resources>
+				<Resource Language="English" />
+			</Resources>
+			<Capabilities>
+				<Capability Type="rescap:Capability" Name="runFullTrust" Idx="32" />
+			</Capabilities>
+			<Dependencies>
+				<TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.17763.404" />
+			</Dependencies>
+			<Build FileName="masoudaflaki" OutputFolder="E:\ufa\concol app\WebApplication3\dif diag ct scan\dif diag ct scan\dif diag ct scan_ NewFrame Class Reference_files\dif diag ct scan_ Main Page_files\dif diag ct scan" />
+			<Authenticode Sign="0" FileName="" TimeStamp="http://timestamp.comodoca.com/rfc3161" ProductInfo="" P="" />
+			<AppInstaller Enabled="1" Url="https://" HoursBetweenChecks="0" ShowPrompt="1" />
+		</Package>
+	</Project>
+</IaMsxixTool>

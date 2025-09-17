@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1743445502 source:e:\ufa\concol app\masoudaflaki\masoudaflaki\difdiag ct scan\data\my product\2d2833e4\70d8e67\dif diag ct scan\main.f90
+
+1743445502 source:e:\ufa\concol app\masoudaflaki\masoudaflaki\difdiag ct scan\data\my product\2d2833e4\70d8e67\dif diag ct scan\main.f95
+
+1743445502 source:e:\ufa\concol app\masoudaflaki\masoudaflaki\difdiag ct scan\data\my product\2d2833e4\70d8e67\dif diag ct scan\main.cpp
+	"main.h"
+
+1743445502 e:\ufa\concol app\masoudaflaki\masoudaflaki\difdiag ct scan\data\my product\2d2833e4\70d8e67\dif diag ct scan\main.h
+	<windows.h>
+
+1743445502 source:e:\ufa\concol app\masoudaflaki\masoudaflaki\difdiag ct scan\data\my product\2d2833e4\70d8e67\dif diag ct scan\main.c
+	<stdio.h>
+	<stdlib.h>
+

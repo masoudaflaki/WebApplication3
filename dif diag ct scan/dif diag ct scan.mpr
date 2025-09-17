@@ -1,0 +1,57 @@
+C:\Program Files (x86)\InstallAware X14\masoudaflaki.mia
+$
+updates.ini
+$
+
+$
+$
+1
+6
+TRUE
+
+dif diag ct scan.ir
+dif diag ct scan
+{81C59E64-3A19-4331-8013-A43A00C7A28F}
+{D427B3DC-4759-4409-B338-49AB43B3B147}
+1
+English
+
+
+
+
+{E9A6B474-3F07-49ED-B6FE-BEB05BEAAD41}
+
+
+
+
+
+FALSE
+
+TRUE
+FALSE
+
+|
+http://time.certum.pl
+
+MSI_ALL=TRUE,CACHESOURCES=TRUE,PCH=TRUE
+$
+$
+
+
+Service Pack
+FALSE
+FALSE
+FALSE
+TRUE
+TRUE
+FALSE
+FALSE
+FALSE
+
+$
+FALSE
+
+FALSE
+FALSE
+TRUE
+FALSE
